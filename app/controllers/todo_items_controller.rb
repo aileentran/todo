@@ -1,5 +1,6 @@
 class TodoItemsController < ApplicationController
   before_action :set_todo_list
+  before_action :set_todo_item, except: [:create]
 
   def create
     @todo_item = @todo_list.todo_items.create(todo_item_params)
@@ -9,13 +10,26 @@ class TodoItemsController < ApplicationController
   def destroy
     @todo_item = TodoItem.find(params[:id])
     @todo_item.destroy
-    redirect_to @todo_list
+    redirect_to todo_list_path(@todo_list)
+  end
+
+  def edit
+  end
+
+  def update
+    @todo_item.content = params["post"]["content"]
+    @todo_item.save
+    redirect_to todo_list_path(@todo_list)
   end
 
   private
 
   def set_todo_list
     @todo_list = TodoList.find(params[:todo_list_id])
+  end
+
+  def set_todo_item
+    @todo_item = TodoItem.find(params[:id])
   end
 
   def todo_item_params
