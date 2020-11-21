@@ -23,6 +23,9 @@ class TodoItemsController < ApplicationController
   end
 
   def complete
+    @todo_item.complete = true
+    @todo_item.save
+    redirect_to todo_list_path(@todo_list)
   end
 
   private
