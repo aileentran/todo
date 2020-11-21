@@ -22,6 +22,9 @@ class TodoItemsController < ApplicationController
     redirect_to todo_list_path(@todo_list)
   end
 
+  def complete
+  end
+
   private
 
   def set_todo_list
