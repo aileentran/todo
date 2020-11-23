@@ -1,13 +1,13 @@
 <p id="notice"><%= notice %></p>
 
-<h1 class="text-lg text-center">Todo Lists</h1>
+<h1 class="text-2xl text-center pb-3">Todo Lists</h1>
 
 <table>
   <thead>
     <tr>
-      <th>Title</th>
-      <th>Description</th>
-      <th colspan="3"></th>
+      <th class="w-1/6">Title</th>
+      <th class="w-2/3">Description</th>
+      <th colspan="3" class="w-1/12"></th>
     </tr>
   </thead>
 
@@ -15,10 +15,10 @@
     <% @todo_lists.each do |todo_list| %>
       <tr>
         <td><%= todo_list.title.capitalize %></td>
-        <td><%= todo_list.description %></td>
+        <td><%= todo_list.description.capitalize %></td>
         <td><%= link_to '🔍', todo_list %></td>
         <td><%= link_to '✏️', edit_todo_list_path(todo_list) %></td>
-        <td><%= link_to '🗑', todo_list, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to '✖️', todo_list, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>

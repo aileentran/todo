@@ -1,13 +1,13 @@
-<div class='bg-indigo-500'>
+<div>
   <% if todo_item.complete %> <s> <% end %>
   <%= todo_item.content %>
-  <% if todo_item.complete %> </s> <% end %>
+  <% if todo_item.complete %> </s> &nbsp; <% end %>
 
-  <%= link_to "Edit", edit_todo_list_todo_item_path(@todo_list, todo_item.id) %> |
-  <%= link_to "Delete", todo_list_todo_item_path(@todo_list, todo_item.id), :method => :delete %>
+  <%= link_to "✏️", edit_todo_list_todo_item_path(@todo_list, todo_item.id) %> |
+  <%= link_to "✖️", todo_list_todo_item_path(@todo_list, todo_item.id), :method => :delete %>
 
   <% unless todo_item.complete %>
-  | <%= link_to "Complete", complete_todo_list_todo_item_path(@todo_list, todo_item.id), :method => :put %>
+  | <%= link_to "✔️", complete_todo_list_todo_item_path(@todo_list, todo_item.id), :method => :put %>
   <% end %>
   <br>
 </div>
