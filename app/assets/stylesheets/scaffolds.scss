@@ -13,8 +13,9 @@ pre {
   padding: 10px;
   font-size: 11px; }
 
-// a, input[type=button], input[type=submit] {
-//   color: #666; }
+input[type=submit]{
+  background-color: transparent;
+}
 
 a:hover, input[type=button]:hover, input[type=submit]:hover {
   color: #fff;
