@@ -16,9 +16,9 @@
       <tr>
         <td><%= todo_list.title.capitalize %></td>
         <td><%= todo_list.description.capitalize %></td>
-        <td><%= link_to '🔍', todo_list %></td>
-        <td><%= link_to '✏️', edit_todo_list_path(todo_list) %></td>
-        <td><%= link_to '✖️', todo_list, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td class="text-center"><%= link_to '🔍', todo_list %></td>
+        <td class="text-center"><%= link_to '✏️', edit_todo_list_path(todo_list) %></td>
+        <td class="text-center"><%= link_to '✖️', todo_list, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
