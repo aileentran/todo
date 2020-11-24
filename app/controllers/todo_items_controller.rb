@@ -16,7 +16,7 @@ class TodoItemsController < ApplicationController
     @todo_item = TodoItem.find(params[:id])
     @todo_item.destroy
     respond_to do |format|
-      format.html { redirect_to todo_lists_url, notice: 'Todo item was successfully destroyed.' }
+      format.html { redirect_to @todo_list, notice: 'Todo item was successfully destroyed.' }
       format.json { head :no_content }
     end
   end
