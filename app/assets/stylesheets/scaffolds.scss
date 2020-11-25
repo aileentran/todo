@@ -28,11 +28,12 @@ th {
 td {
   padding: 0 3px 15px; }
 
-div.field {
+div.field{
   margin-bottom: 12px; }
 
-div.actions{
-  margin-bottom: 20px; }
+// div.field:last-child{
+//   margin-bottom: 0px;
+// }
 
 textarea, input[type=text] {
   width: 100%;
