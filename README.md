@@ -1,24 +1,12 @@
-# README
+# Minimalist Todo List✏️✨
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+#### About Creator🍵🌸
+Roam was created by Aileen Tran, a developer in the Bay Area. Learn more about her on [LinkedIn](https://www.linkedin.com/in/aileentran27/).
 
-* Ruby version
+### Tech Stack📚
+Front end: HTML, CSS, Tailwind
 
-* System dependencies
+Back end:PostgreSQL relational database, Ruby
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Framework: Rails
