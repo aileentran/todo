@@ -20,25 +20,8 @@
           &nbsp;
           <% end %>
         </td>
-        <!-- TODO: link up edit item form -->
         <td><%= link_to "✏️", edit_todo_list_todo_item_path(@todo_list, todo_item.id) %></td>
         <td><%= link_to "✖️", todo_list_todo_item_path(@todo_list, todo_item.id), :method => :delete %></td>
       </tr>
   </tbody>
 </table>
-
-
-
-<!-- <div>
-  <% if todo_item.complete %> <s> <% end %>
-  <%= todo_item.content %>
-  <% if todo_item.complete %> </s> &nbsp; <% end %>
-
-  <%= link_to "✏️", edit_todo_list_todo_item_path(@todo_list, todo_item.id) %> |
-  <%= link_to "✖️", todo_list_todo_item_path(@todo_list, todo_item.id), :method => :delete %>
-
-  <% unless todo_item.complete %>
-  | <%= link_to "✔️", complete_todo_list_todo_item_path(@todo_list, todo_item.id), :method => :put %>
-  <% end %>
-  <br>
-</div> -->

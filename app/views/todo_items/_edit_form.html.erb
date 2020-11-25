@@ -1,5 +1,10 @@
 <%= form_for @todo_item, as: :post, url: todo_list_todo_item_path(@todo_list, @todo_item), method: :patch do |f| %>
-  <%= f.label :content %>
-  <%= f.text_field :content %>
-  <%= f.submit %>
+  <div class="field">
+    <div class="italic text-lg"><%= f.label :content %></div>
+    <%= f.text_area :content %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
 <% end %>
