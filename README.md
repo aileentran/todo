@@ -1,12 +1,16 @@
 # 📝Minimal Todo List
-A minimal todo list written in Ruby on Rails! 💎
+A minimal todo list with no frills to bog you down.
 
-#### About Creator🍵🌸
+#### About
 Roam was created by Aileen Tran, a developer in the Bay Area. Learn more about her on [LinkedIn](https://www.linkedin.com/in/aileentran27/).
 
-### Tech Stack📚
-Front end: HTML, CSS, Tailwind
+### TechStack
+Frontend: HTML, CSS, Javascript, Tailwind
 
-Back end:PostgreSQL relational database, Ruby
+Backend:PostgreSQL relational database, Ruby
 
 Framework: Rails
+
+###Features✨
+![Homepage](/app/assets/images/readme/0homepage.png)
+Users can create, edit, and delete lists. They can also create, edit, delete, and complete todo items.
