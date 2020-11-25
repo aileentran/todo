@@ -1,4 +1,4 @@
-# Minimalist Todo List✏️✨
+# Minimal Todo List✏️
 
 
 #### About Creator🍵🌸
