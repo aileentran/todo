@@ -1,5 +1,5 @@
-# Minimal Todo List✏️
-
+# 📝Minimal Todo List
+A minimal todo list written in Ruby on Rails! 💎
 
 #### About Creator🍵🌸
 Roam was created by Aileen Tran, a developer in the Bay Area. Learn more about her on [LinkedIn](https://www.linkedin.com/in/aileentran27/).
