@@ -1,12 +1,12 @@
 <p id="notice"><%= notice %></p>
 
-<h1 class="text-2xl text-center pb-3">Todo Lists</h1>
+<h1 class="text-2xl text-center pb-5 pt-5">Todo Lists</h1>
 
 <table>
   <thead>
     <tr>
-      <th class="w-1/6">Title</th>
-      <th class="w-2/3">Description</th>
+      <th class="w-1/6" colspan="1"></th>
+      <th class="w-2/3" colspan="1"></th>
       <th class="w-1/12" colspan="3"></th>
     </tr>
   </thead>
@@ -15,7 +15,7 @@
     <% @todo_lists.each do |todo_list| %>
       <tr>
         <td><%= todo_list.title.capitalize %></td>
-        <td><%= todo_list.description.capitalize %></td>
+        <td class="italic"><%= todo_list.description.capitalize %></td>
         <td class="text-center"><%= link_to '🔍', todo_list %></td>
         <td class="text-center"><%= link_to '✏️', edit_todo_list_path(todo_list) %></td>
         <td class="text-center"><%= link_to '✖️', todo_list, method: :delete, data: { confirm: 'Are you sure?' } %></td>
