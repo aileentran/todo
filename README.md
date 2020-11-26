@@ -21,3 +21,4 @@ List features: <br>
 
 *II. Edit*
 ![Editing Todo List](/app/assets/images/readme/4edit_todo_list.png)
+![Editing Todo List](/app/assets/images/readme/5editing_todo_list.png)
