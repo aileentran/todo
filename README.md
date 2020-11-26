@@ -20,5 +20,8 @@ List features: <br>
 ![Creating New Todo List](/app/assets/images/readme/2creating_new_todo_list.png)
 
 *II. Edit*
-![Editing Todo List](/app/assets/images/readme/4edit_todo_list.png)
+<!-- ![Editing Todo List](/app/assets/images/readme/4edit_todo_list.png) -->
 ![Editing Todo List](/app/assets/images/readme/5editing_todo_list.png)
+
+*III. Delete*
+![Delete Todo List](/app/assets/images/readme/7delete_todo_list.png)
