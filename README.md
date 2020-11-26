@@ -2,7 +2,7 @@
 A minimal todo list with no frills to bog you down.
 
 #### About
-Roam was created by Aileen Tran, a developer in the Bay Area. Learn more about her on [LinkedIn](https://www.linkedin.com/in/aileentran27/).
+Roam was created by Aileen Tran, a developer in the Bay Area. Learn more about her on [LinkedIn](https://www.linkedin.com/in/aileentran27/) or visit her [portfolio](https://www.aileentran.dev/).
 
 ### TechStack
 Frontend: HTML, CSS, Javascript, Tailwind
@@ -20,7 +20,6 @@ Users can create, edit, and delete lists. They can also create, edit, delete, an
 ![Creating New Todo List](/app/assets/images/readme/2creating_new_todo_list.png)
 
 *II. Edit*
-<!-- ![Editing Todo List](/app/assets/images/readme/4edit_todo_list.png) -->
 ![Editing Todo List](/app/assets/images/readme/5editing_todo_list.png)
 
 *III. Delete*
