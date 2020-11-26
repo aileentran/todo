@@ -15,6 +15,6 @@ Framework: Rails
 ![Homepage](/app/assets/images/readme/0homepage.png)
 Users can create, edit, and delete lists. They can also create, edit, delete, and complete todo items.
 
-List features:
+List features: <br>
 *Create*
-![Creating New Todo List](/app/assets/images/readme/creating_new_todo_list.png)
+![Creating New Todo List](/app/assets/images/readme/2creating_new_todo_list.png)
