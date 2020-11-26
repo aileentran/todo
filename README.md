@@ -33,9 +33,8 @@ Users can create, edit, and delete lists. They can also create, edit, delete, an
 *II. Edit*
 ![Editing Todo Item](/app/assets/images/readme/9editing_todo_item.png)
 
-<!-- TODO: screenshot deleting item -->
 *III. Delete*
-![Delete Todo Item](/app/assets/images/readme/7delete_todo_list.png)
+![Delete Todo Item](/app/assets/images/readme/delete_item.png)
 
 *IV. Complete*
 ![Mark Todo Item Complete](/app/assets/images/readme/12marked_item_completed.png)
