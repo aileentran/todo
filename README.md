@@ -1,5 +1,5 @@
-# Minimal Todo List🌱
-A minimal todo list with no frills to bog you down.
+# Minimalist Todo List🌱
+A todo list with no frills to bog you down.
 
 #### About
 Roam was created by Aileen Tran, a developer in the Bay Area. Learn more about her on [LinkedIn](https://www.linkedin.com/in/aileentran27/) or visit her [portfolio](https://www.aileentran.dev/).
